@@ -1,0 +1,336 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.promo {
+    height: 800px;
+    background: url("img/promo/bg.png") center center/cover no-repeat;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 38px 15px 61px 15px;
+}
+
+.logo .logo_img {
+    display: block;
+    margin: 0 auto;
+    width: 83px;
+    height: 73px;
+}
+
+.logo .logo_text {
+    text-align: center;
+    color: white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 9px;
+}
+
+h1 {
+    margin: 53px 0 0 0;
+}
+
+.simple .title_great {
+    font-weight: 900;
+    font-size: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.title {
+    text-align: center;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 41px;
+    text-transform: uppercase;
+    color: #F9BF3B;
+}
+
+.promo .promo_text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 21px;
+    text-align: center;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin: 22px 0 0 0;
+}
+
+.promo .promo_text span {
+    color: #F9BF3B;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 72px auto;
+    width: 313px;
+    height: 72px;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.more .more_text {
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.more .more_img {
+    display: block;
+    margin: 7px auto;
+}
+
+.expectations {
+    background: #EFEFEF;
+}
+
+.expectations .container {
+    min-height: 600px;
+    padding: 88px 0 75px 0;
+}
+
+.expectations .container .expectations_title, .result .container .expectations_title {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    color: #252525;
+}
+
+.result .container .expectations_title {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #EFEFEF;
+}
+
+.expectations .container .divider, .result .container .divider {
+    width: 220px;
+    height: 7px;
+    background: #F9BF3B;
+    margin: 18px auto 0;
+}
+
+.expectations .container .expectations_description {
+    margin-top: 18px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 23px;
+}
+
+.expectations .container .item {
+    width: 340px;
+    margin: 45px 30px 30px 0;
+}
+
+.expectations .container img {
+    width: 340px;
+}
+
+.expectations .container .description {
+    text-align: center;
+    margin: 26px 0 0 0;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 15px;
+    color: #4A4A4A;
+}
+
+.expectations .container .items_wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.optimization {
+    position: relative;
+}
+
+.optimization .container {
+    padding: 108px 0 72px 0;
+    min-height: 547px;
+}
+
+.optimization .optimization_img {
+    position: absolute;
+    left: 150px;
+    z-index: -1;
+    top: 47px;
+    height: 500px;
+}
+
+
+.optimization .container .head, .text {
+    margin: 0 0 0 391px;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.optimization .container .head {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #299CBD;
+}
+
+.optimization .container .text {
+    margin: 0 0 0 391px;
+    font-size: 17px;
+    line-height: 27px;
+    color: #4A4A4A;
+}
+.optimization .container .black {
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+.result {
+    background: url("./img/result/bg.png") center center/cover no-repeat;
+    min-height: 450px;
+}
+
+.result .container {
+    width: 1140px;
+    padding: 86px 0 68px 0;
+}
+
+.result .container .wrapper {
+    margin-top: 39px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.result .item .item_round {
+    height: 118px;
+    width: 118px;
+    border-radius: 100%;
+    background: #B4E2FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.result .item .item_img {
+    height: 48px;
+}
+
+.result .item .item_description {
+    width: 204px;
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    color: #EFEFEF;
+    text-align: center;
+}
+
+.gift {
+    background: #EFEFEF;
+    height: 631px;
+}
+
+.gift .container {
+    padding: 88px 0;
+    text-align: center;
+}
+
+.gift .gift_icon {
+    height: 174px;
+}
+
+.gift .gift_text {
+    margin-top: 45px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 43px;
+    color: #252525;
+}
+
+.gift .gift_btn {
+    width: 313px;
+    height: 72px;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    outline: none;
+    border: none;
+    margin-top: 51px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.date {
+    height: 515px;
+    padding: 81px 0 0 0;
+}
+
+.date .content {
+    margin: 0 auto;
+    width: 577px;
+    text-align: center;
+    height: 433px;
+    padding: 0 0 55px 0;
+}
+
+.date .content .img {
+    height: 201px;
+}
+
+.date .content .title {
+    margin-top: 36px;
+    color: #252525;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.date .content .text_blue {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 30px;
+    color: #299CBD;
+    text-transform: uppercase;
+}
+
+.date .content .text {
+    margin: 24px 0 0 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 20px;
+    color: #4A4A4A;
+}
+
+footer {
+    height: 169px;
+    background: #1A1A1A;
+    text-align: center;
+    padding: 57px 69px;
+    font-weight: 300;
+    color: #888888;
+}
